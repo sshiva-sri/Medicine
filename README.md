@@ -22,7 +22,7 @@ to predict sales figures given an illegal operation's characteristics.
 Initial proposal for solution:
 ------------------------------
 * Initially tried with Linear Regression but the r2_score was very less.
-* Later tried with Ransm Forest.
+* Later tried with Random Forest.
 
 
 Performance:
