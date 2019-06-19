@@ -26,6 +26,12 @@ Initial proposal for solution:
 * Initially tried with Linear Regression but the r2_score was very less.
 * Later tried with Random Forest.
 
+What is a random forest?
+------------------------
+A random forest consists of multiple random decision trees. Two types of randomnesses are built into the trees. First, each tree is built on a random sample from the original data. Second, at each tree node, a subset of features are randomly selected to generate the best split.
+
+Random forests are powerful not only in classification/regression but also for purposes such as outlier detection, clustering, and interpreting a data set (e.g., serving as a rule engine with inTrees).
+
 
 Performance:
 ------------
